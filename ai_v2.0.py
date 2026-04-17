@@ -5,7 +5,6 @@ from groq import Groq
 load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-# شخصية الـ AI (خليها متناسبة مع دراستك في الـ BIS)
 SYSTEM_PROMPT = "You are a helpful AI Assistant expert in Business Systems and AI Engineering."
 
 print("--- 🤖 Welcome to Silver AI Assistant ---")
